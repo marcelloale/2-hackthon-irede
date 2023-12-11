@@ -14,7 +14,7 @@ terraform {
   }
   required_version = ">= 1.1.0"
   cloud {
-    organization = "marcelloale " ### NOME DA SUA ORGANIZATION CRIADA NO TERRAFORM CLOUD ###
+    organization = "marcelloale" ### NOME DA SUA ORGANIZATION CRIADA NO TERRAFORM CLOUD ###
   workspaces {
       name = "learn-terraform-github-actions" ### NOME DA SUA WORKSPACE CRIADA NO TERRAFORM CLOUD ###
     }
