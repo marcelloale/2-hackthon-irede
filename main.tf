@@ -4,6 +4,7 @@ terraform {
 
       ### CONFIGURAÇÔES DA AWS NESSE BLOCO ####
       source = "hashicorp/aws"
+      version = "4.52.0"
     
     }
     random = {
@@ -31,7 +32,7 @@ data "aws_ami" "ubuntu" {
 
   filter {
       name   = "name"
-      values = ["ubuntu/images/hvm-ssd/ubuntu-xenial-22.0-amd64-server-*"]
+      values = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
   }
   
   filter {
