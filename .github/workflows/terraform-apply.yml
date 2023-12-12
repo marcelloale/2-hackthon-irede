@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "marcelloale" ### NOME DA SUA ORGANIZATION CRIADA NO TERRAFORM CLOUD ###
+  TF_CLOUD_ORGANIZATION: "marcelloale"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "learn-terraform-github-actions" ### NOME DA SUA WORKSPACE CRIADA NO TERRAFORM CLOUD ###
+  TF_WORKSPACE: "learn-terraform-github-actions"
   CONFIG_DIRECTORY: "./"
 
 jobs:
