@@ -67,6 +67,7 @@ resource "aws_instance" "web" {
               }
               EOH
               service nginx start
+              sudo systemctl reload nginx
               ### INSTALAÇÃO DO SERVIDOR WEB ###
               EOF
 }
